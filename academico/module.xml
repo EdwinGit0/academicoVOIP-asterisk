@@ -1,0 +1,21 @@
+<module>
+        <rawname>academico</rawname>
+        <name>AcademicoVOIP</name>
+        <version>1.0.0.0</version>
+        <publisher>Academico VOIP</publisher>
+        <license>GPLv3+</license>
+        <category>Applications</category>
+        <canuninstall>yes</canuninstall>
+        <candisable>yes</candisable>
+        <description>
+                Servicio de reporte de calificaciones.
+        </description>
+        <menuitems>
+                <academico>AcademicoVOIP</academico>
+        </menuitems>
+        <supported>
+                <version>2.11</version>
+        </supported>
+        <location>release/2.11/ivr-2.11.0.10.tgz</location>
+        <md5sum>57d8316dc41fcd3153cefd00a5e3bdd5</md5sum>
+</module>
