@@ -42,7 +42,7 @@ function academico_academico($c) {
 	$ext->add($id2, s, '', new ext_answer(''));
     $ext->add($id2, s, '', new ext_set('phone','${CALLERID(num)}'));
 	$ext->add($id2, s, 'start', new ext_festival('Para iniciar sesion. Ingrese su clave'));
-    $ext->add($id2, s, '', new ext_read('password','','20','10'));
+    $ext->add($id2, s, '', new ext_read('password','','20','40'));
 	$ext->add($id2, s, '', new ext_playback('one-moment-please'));
     $ext->add($id2, s, '', new ext_agi('academico.php,1,${phone},${password}'));
     $ext->add($id2, s, '', new ext_festival('${message}'));
